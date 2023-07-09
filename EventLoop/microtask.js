@@ -2,9 +2,9 @@
 //     console.log("Inside next tick")
 // })
 // console.log("Outside next tick")
-// Promise.resolve().then(() => {
-//     console.log("Inside Promise")
-// })
+Promise.resolve().then(() => {
+    console.log("Inside Promise")
+})
 // setTimeout(() => {
 //     console.log('Timer Queue')
 //     process.nextTick(() => {
